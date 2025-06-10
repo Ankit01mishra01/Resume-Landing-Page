@@ -1,0 +1,44 @@
+body,
+html #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.badge {
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+}
