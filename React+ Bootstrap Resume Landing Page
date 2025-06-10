@@ -1,0 +1,180 @@
+# Resume Landing Page
+
+A sleek and professional resume landing page built with **React** and **Bootstrap** to showcase your skills, experience, and projects.
+
+## Features
+
+- **Responsive Design** – Optimized for all screen sizes using Bootstrap's grid system.
+- **Dynamic Components** – Modular React components for easy customization.
+- **Dark Mode Support** – Stylish dark-themed aesthetics.
+- **Smooth Animations** – Subtle transitions for enhanced user experience.
+
+## Technologies Used
+
+- React.js
+- Bootstrap 5
+- JavaScript (ES6+)
+- CSS (custom styling enhancements)
+- GitHub Pages for deployment
+
+Code - 
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="min-vh-100 d-flex flex-column align-items-center justify-content-center" 
+         style={{ 
+           background: 'linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d)',
+           backgroundSize: '400% 400%',
+           animation: 'gradient 15s ease infinite'
+         }}>
+      <div className="container py-4">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-8 col-lg-6">
+            <div className="card shadow-lg p-4" style={{ backgroundColor: 'rgba(255, 255, 255, 0.95)' }}>
+              <div className="text-center">
+                <h1 className="fw-bold mb-1" style={{ color: '#1a2a6c' }}>Ankit Mishra</h1>
+                <h5 className="mb-3" style={{ color: '#b21f1f' }}>Web Developer</h5>
+                <p className="text-muted">
+                  <strong>I am Ankit Mishra, a Computer Science student at VIT Bhopal, passionate about web development and crafting seamless digital experiences. With expertise in JavaScript, Tailwind CSS, API integration, and responsive design.</strong>
+                </p>
+              </div>
+              <hr style={{ borderColor: '#fdbb2d' }} />
+              <div>
+                <h4 className="fw-semibold mb-3" style={{ color: '#1a2a6c' }}>Skills</h4>
+                <div className="d-flex flex-wrap gap-2 mb-3">
+                  <span className="badge" style={{ backgroundColor: '#1a2a6c' }}>React</span>
+                  <span className="badge" style={{ backgroundColor: '#b21f1f' }}>JavaScript</span>
+                  <span className="badge" style={{ backgroundColor: '#fdbb2d', color: '#000' }}>Bootstrap</span>
+                  <span className="badge" style={{ backgroundColor: '#1a2a6c' }}>HTML</span>
+                  <span className="badge" style={{ backgroundColor: '#b21f1f' }}>CSS</span>
+                  <span className="badge" style={{ backgroundColor: '#fdbb2d', color: '#000' }}>TailwindCSS</span>
+                  <span className="badge" style={{ backgroundColor: '#1a2a6c' }}>Data Structure and Alogorithms</span>
+                </div>
+                <h4 className="fw-semibold mb-3" style={{ color: '#1a2a6c' }}>ACADEMIC PROJECT :</h4>
+                <ul className="list-unstyled">
+                  <li>
+                    <strong>Car Rental</strong> <br />
+                    <ul>
+                      <li> Developed a responsive car rental web application with an intuitive React.js interface, enhancing user
+                        engagement through interactive car filters and streamlined booking flows</li>
+                      <li> Built and deployed the complete MERN stack infrastructure, showcasing expertise in full-stack architecture
+                        and data-driven UI/UX design.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul className="list-unstyled">
+                  <li>
+                    <strong>Trip Expense Tracker</strong> <br />
+                    <ul>
+                      <li> Developed a responsive trip expense tracker web application with an intuitive React.js interface, enhancing user
+                        engagement through interactive expense filters and streamlined tracking flows</li>
+                      <li>  Managed database operations and schema design in MongoDB to support scalable storage of vehicle listings,
+                        user accounts, and reservation data.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h4 className="fw-semibold mb-3" style={{ color: '#1a2a6c' }}>EDUCATION :</h4>
+                <ul className="list-unstyled">
+                  <li>
+                    <strong>VELLORE INSTITUTE OF TECHNOLOGY                                                   (2021 -2025)</strong> <br />
+                    <ul>
+                      <li> Bachelor of Technology in Computer Science</li>
+                      <li>CGPA :- 7.12</li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul className="list-unstyled">
+                  <li>
+                    <strong> The Eminent Hr Sr School,Vidisha (2020 -2021) </strong> <br />
+                    <ul>
+                      <li> Class- 12th, Percentage- 66.2%</li>
+                    </ul>
+                  </li>
+                </ul>
+                <li>
+                  <strong> Saket MGM Sr Sec School,Vidisha  (2018 -2019) </strong> <br />
+                  <ul>
+                    <li> Class- 10th, Percentage- 68.9%</li>
+                  </ul>
+                </li>
+                <h4 className="fw-semibold mb-3" style={{ color: '#1a2a6c' }}>CERTIFICATIONS :</h4>
+                <ul className="list-unstyled">
+                  <li>
+                    <strong>  ● Iamneo High Performance Coding(DSA using Java) </strong> <br />
+                    <strong>● Google Cloud Certified Cloud Digital Leader</strong>
+                  </li>
+                </ul>
+              </div>
+              <ul className="nav justify-content-center mt-4">
+                <li className="nav-item">
+                  <a className="nav-link" href="https://www.linkedin.com/in/ankit-mishra09/" style={{ color: '#1a2a6c' }}>Linkedin</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="https://github.com/ankit-mishra09" style={{ color: '#b21f1f' }}>Github</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="mailto:ankit.forwork09@gmail.com" style={{ color: '#fdbb2d' }}>Email</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="https://leetcode.com/ankit-mishra09/" style={{ color: '#1a2a6c' }}>LeetCode</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App; 
+
+App.css file code -:
+body,
+html #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.badge {
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+}
+
