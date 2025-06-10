@@ -1,3 +1,33 @@
+# Resume Landing Page 🌟
+
+A sleek, responsive, and professional **resume landing page** built using **React** and **Bootstrap** to showcase skills, experience, and projects interactively.
+
+## 🚀 Features
+
+- **Responsive Design:** Works flawlessly across all devices.
+- **Dark-Themed Aesthetics:** Professional and modern look.
+- **Bootstrap Components:** Ensuring a clean, polished UI.
+- **React Modular Structure:** Easily customizable and scalable.
+- **Smooth Animations:** Enhancing user experience with subtle transitions.
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **Bootstrap 5**
+- **JavaScript (ES6+)**
+- **CSS (custom styling)**
+- **GitHub Pages (Deployment)**
+
+## 🔧 Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ankit01mishra01/resume-landing-page.git
+   cd resume-landing-page
+
+
+
+
 # Resume-Landing-Page
 🚀 Landing Page Resume A clean and professional HTML &amp; CSS landing page showcasing my resume, skills, and projects. Designed with responsive styling for an elegant user experience. Tech Stack: HTML, CSS, 
 
